@@ -9,7 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  get: ">=4.0.0 <6.0.0"
+  get:
+    git:
+      url: https://github.com/vudvv/getx.git
+      ref: 5.0.0
   path_provider: ^2.0.1
   #platform_info: ^3.0.0-nullsafety.1
 
